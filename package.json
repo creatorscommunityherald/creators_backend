@@ -1,0 +1,36 @@
+{
+  "name": "creators_backend",
+  "version": "1.0.0",
+  "description": "Creators backend ",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creatorscommunityherald/creators_backend.git"
+  },
+  "keywords": [
+    "creators_backend",
+    "podcast",
+    "article",
+    "management"
+  ],
+  "author": "hukum gosain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/creatorscommunityherald/creators_backend/issues"
+  },
+  "homepage": "https://github.com/creatorscommunityherald/creators_backend#readme",
+  "devDependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
