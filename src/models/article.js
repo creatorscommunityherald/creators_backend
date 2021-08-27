@@ -6,3 +6,9 @@ let articleSchema = new mongoose.Schema({ //just a mock will code
 })
 
 export const article = new mongoose.model(articleSchema);
+
+
+
+
+
+/** ********************************ROCKETMAN***************************** */

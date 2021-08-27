@@ -6,3 +6,9 @@ let podcastSchema = new mongoose.Schema({ //just a mock will code
 })
 
 export const podcast = new mongoose.model(podcastSchema);
+
+
+
+
+
+/** ********************************ROCKETMAN***************************** */

@@ -33,13 +33,18 @@ app.listen(PORT,function(err){
 
 /** DATABASE CONNECTIVITY STARTS HERE */
 
-mongoose.connect(process.env.MONGODB_URI,{
+let host = process.env.username;
+let pass = process.env.password;
+
+const MONGODB_URI = `mongodb+srv://${host}:${pass}@cluster0.0h1kr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+mongoose.connect(MONGODB_URI,{
     useUnifiedTopology: true,
     useNewUrlParser:true,
 },function(error){
     if(error) console.log("error occured")  
-    console.log("MONGO DB STARTED");
+    console.log("MONGO DB STARTED",MONGODB_URI);
 });
 
-
 /** DATABASE CONNECTIVITY ENDS HERE  */
+
+/** ********************************ROCKETMAN***************************** */
