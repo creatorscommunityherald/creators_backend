@@ -36,7 +36,7 @@ app.listen(PORT,function(err){
 let host = process.env.username;
 let pass = process.env.password;
 
-const MONGODB_URI = `mongodb+srv://${host}:${pass}@cluster0.0h1kr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const MONGODB_URI = `mongodb+srv://${host}:${pass}@cluster0.0h1kr.mongodb.net/community_patform?retryWrites=true&w=majority`;
 mongoose.connect(MONGODB_URI,{
     useUnifiedTopology: true,
     useNewUrlParser:true,
